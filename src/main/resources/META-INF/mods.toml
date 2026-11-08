@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="omega_guns"
+version="1.0.0"
+displayName="Omega Guns"
+description='''Futuristic precision rifles, custom ammo and attachments for TACZ (Timeless and Classics Zero).'''
+
+[[dependencies.omega_guns]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.omega_guns]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.omega_guns]]
+modId="tacz"
+mandatory=true
+versionRange="[1.0.0,)"
+ordering="AFTER"
+side="BOTH"
